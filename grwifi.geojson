@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Meanwhile2",
+        "password": "highspeed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64416229724884,
+          42.955711888587224
+        ]
+      }
+    }
+  ]
+}
