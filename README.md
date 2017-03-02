@@ -1,5 +1,4 @@
-# grwifi
-
+# GR Wifi
 
 ## About GeoJSON
 
