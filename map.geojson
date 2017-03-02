@@ -28,6 +28,20 @@
           42.9665823372708
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Lantern Coffee Bar and Lounge",
+        "password": "drinklocal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66894590854643,
+          42.96086273424222
+        ]
+      }
     }
   ]
 }
