@@ -1,11 +1,11 @@
 # GR Wifi
 
-## About GeoJSON
+## Add an access point
 
-Embedding GeoJSON with GitHub:
-
-https://help.github.com/articles/mapping-geojson-files-on-github/
-
-Editing GeoJSON:
-
-http://geojson.io/#id=github:jacebrowning/grwifi/blob/master/map.geojson
+1. Visit http://geojson.io and login with GitHub
+2. Open http://geojson.io/#id=github:jacebrowning/grwifi/blob/master/map.geojson
+3. Click on the "Draw a marker" icon
+4. Click on the approximate center of access point
+5. Click on the **Table** tab
+6. Fill in the empty row
+7. Click **Save** and enter a commit message
