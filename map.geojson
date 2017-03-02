@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "SSID": "Meanwhile2",
-        "password": "highspeed"
+        "Password": "highspeed"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "SSID": "Amway-Guest",
-        "password": "shamrock"
+        "Password": "shamrock",
+        "Notes": "Password changes every month."
       },
       "geometry": {
         "type": "Point",
@@ -33,13 +34,58 @@
       "type": "Feature",
       "properties": {
         "SSID": "Lantern Coffee Bar and Lounge",
-        "password": "drinklocal"
+        "Password": "drinklocal"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -85.66894590854643,
           42.96086273424222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "peppinos",
+        "Password": "peppinos",
+        "Notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66999733448029,
+          42.959959797041215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "FoundersFreeWi-Fi",
+        "Password": "imperialstout",
+        "Notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67381680011749,
+          42.95833840263338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "CityFlats",
+        "Password": "cityflats",
+        "Notes": "Access code is 'cityflats#' where # is the number of the month."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6699115037918,
+          42.96466081410007
         ]
       }
     }
