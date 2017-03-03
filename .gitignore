@@ -1,0 +1,4 @@
+/.venv/
+
+# Not using pipenv for dependency management yet
+Pipfile*
