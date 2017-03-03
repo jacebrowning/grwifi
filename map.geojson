@@ -88,6 +88,20 @@
           42.96466081410007
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "EarlyBird_5G",
+        "Password": "Bird2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.63464850187302,
+          42.957508059414714
+        ]
+      }
     }
   ]
 }
