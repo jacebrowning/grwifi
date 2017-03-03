@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+indent() {
+  sed "s/^/       /"
+}
+
+puts-step() {
+  echo "-----> $@"
+}
+
+puts-step "Updating map version to ${SOURCE_VERSION}..."
+sed -i "s/master/${SOURCE_VERSION}/g" index.html
