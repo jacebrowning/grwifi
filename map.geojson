@@ -102,6 +102,21 @@
           42.957508059414714
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "mayanbuzzguest",
+        "Password": "",
+        "Notes": "Access code is 'londonfog'"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67317575216292,
+          42.95928651133035
+        ]
+      }
     }
   ]
 }
