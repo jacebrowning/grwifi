@@ -117,6 +117,21 @@
           42.95928651133035
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Factory Friends",
+        "Password": "factoryguest38",
+        "Notes": "Available on the 3rd and 4th floors."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66950112581253,
+          42.96298654733028
+        ]
+      }
     }
   ]
 }
