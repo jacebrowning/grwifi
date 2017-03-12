@@ -132,6 +132,20 @@
           42.96298654733028
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "horseshoe",
+        "Password": "horseshoe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6744122505188,
+          42.95677781923906
+        ]
+      }
     }
   ]
 }
