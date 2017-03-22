@@ -3,7 +3,7 @@ all: install
 
 .PHONY: setup
 setup:
-	pip install pipenv
+	pip install pipenv==3.5.4
 
 .PHONY: install
 install:
