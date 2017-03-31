@@ -146,6 +146,20 @@
           42.95677781923906
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Lightfast_Public",
+        "Password": "Lightfast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64557582139969,
+          42.96268034589986
+        ]
+      }
     }
   ]
 }
