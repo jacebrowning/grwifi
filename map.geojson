@@ -160,6 +160,20 @@
           42.96268034589986
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "LOCAL MOCHA",
+        "Password": "LOCAL106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66991418600082,
+          42.96509458504577
+        ]
+      }
     }
   ]
 }
