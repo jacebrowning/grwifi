@@ -188,6 +188,20 @@
           42.9707941688837
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Ferris_Coffee_5g",
+        "Password": "ferris1924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67002415657043,
+          42.966274191017725
+        ]
+      }
     }
   ]
 }
