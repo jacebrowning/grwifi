@@ -202,6 +202,20 @@
           42.966274191017725
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Graydons Crossing-guest",
+        "Notes": "Access code is 'graydons'"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66717028617859,
+          42.98541165767672
+        ]
+      }
     }
   ]
 }
