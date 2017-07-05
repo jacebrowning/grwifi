@@ -216,6 +216,20 @@
           42.98541165767672
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "CITYBUILT-GUEST",
+        "Password": "grbeercity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67231342196465,
+          42.97807195015942
+        ]
+      }
     }
   ]
 }
