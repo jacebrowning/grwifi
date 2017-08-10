@@ -230,6 +230,20 @@
           42.97807195015942
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Vitale Guest",
+        "Password": "Vitale2090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64899027347565,
+          42.98421279727489
+        ]
+      }
     }
   ]
 }
