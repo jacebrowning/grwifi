@@ -244,6 +244,20 @@
           42.98421279727489
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "7 Monks Guest",
+        "Password": "drinkbeer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6498834490776,
+          42.969926704315476
+        ]
+      }
     }
   ]
 }
