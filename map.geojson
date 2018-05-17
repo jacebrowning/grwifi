@@ -258,6 +258,20 @@
           42.969926704315476
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Littlebird-5",
+        "Password": "superharry8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67004293203354,
+          42.96480409624398
+        ]
+      }
     }
   ]
 }
