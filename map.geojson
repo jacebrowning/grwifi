@@ -272,6 +272,20 @@
           42.96480409624398
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "CBC Free WiFi",
+        "Password": "nocrapbeer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66994100809097,
+          42.95578452164877
+        ]
+      }
     }
   ]
 }
