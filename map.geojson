@@ -286,6 +286,21 @@
           42.95578452164877
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "SteelCatBar Public",
+        "Password": "steelcatpassword",
+        "Notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68429082632065,
+          42.97061164907457
+        ]
+      }
     }
   ]
 }
