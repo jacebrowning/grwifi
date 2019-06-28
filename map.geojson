@@ -301,6 +301,20 @@
           42.97061164907457
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "thesparrows-public",
+        "Password": "hamburger8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64301162958145,
+          42.95566281214575
+        ]
+      }
     }
   ]
 }
