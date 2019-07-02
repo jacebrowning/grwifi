@@ -315,6 +315,20 @@
           42.95566281214575
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "PaLatte Coffee & Art",
+        "Password": "muffintop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66480994224548,
+          42.9630159896952
+        ]
+      }
     }
   ]
 }
