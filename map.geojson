@@ -329,6 +329,20 @@
           42.9630159896952
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "VIVANT-GUEST",
+        "Password": "walloonroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64611494541168,
+          42.95983220702039
+        ]
+      }
     }
   ]
 }
