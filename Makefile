@@ -3,7 +3,7 @@ all: install
 
 .PHONY: setup
 setup:
-	pip install pipenv==3.5.4
+	pip install pipenv
 
 .PHONY: install
 install:
@@ -11,4 +11,4 @@ install:
 
 .PHONY: run
 run: install
-	pipenv shell -c "heroku local; exit $$?"
+	pipenv run heroku local
