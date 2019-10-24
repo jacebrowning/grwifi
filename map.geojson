@@ -343,6 +343,20 @@
           42.95983220702039
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "corridor-guests",
+        "Password": "freewififorme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68758726119995,
+          42.97480161785969
+        ]
+      }
     }
   ]
 }
