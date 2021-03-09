@@ -357,6 +357,20 @@
           42.97480161785969
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "LunaGuest",
+        "Password": "eatmoretacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67005231976508,
+          42.96136817699913
+        ]
+      }
     }
   ]
 }
