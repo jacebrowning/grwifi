@@ -371,6 +371,20 @@
           42.96136817699913
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Uccellos-Public",
+        "Password": "welcome!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67083150148392,
+          42.965668688947424
+        ]
+      }
     }
   ]
 }
