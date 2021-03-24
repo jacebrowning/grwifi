@@ -385,6 +385,20 @@
           42.965668688947424
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Condado Tacos Guest",
+        "Password": "eatmoretacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68101316690445,
+          42.97072253482963
+        ]
+      }
     }
   ]
 }
