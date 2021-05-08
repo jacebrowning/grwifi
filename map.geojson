@@ -399,6 +399,20 @@
           42.97072253482963
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Password": "arktosmeadery",
+        "SSID": "Arktos-Guest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6808093190193,
+          42.97047083369038
+        ]
+      }
     }
   ]
 }
