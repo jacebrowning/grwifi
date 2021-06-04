@@ -413,6 +413,20 @@
           42.97047083369038
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Anchor Wifi",
+        "Password": "anchorbar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68083077669142,
+          42.970727441274356
+        ]
+      }
     }
   ]
 }
