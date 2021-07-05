@@ -427,6 +427,20 @@
           42.970727441274356
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "GarageBarGuest",
+        "Password": "garagebarguest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67045867443085,
+          42.97730957500807
+        ]
+      }
     }
   ]
 }
