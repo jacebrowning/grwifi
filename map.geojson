@@ -441,6 +441,20 @@
           42.97730957500807
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "KBCO Guest",
+        "Password": "Welcome!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68459391593933,
+          42.97059006067421
+        ]
+      }
     }
   ]
 }
