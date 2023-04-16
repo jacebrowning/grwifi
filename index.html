@@ -22,26 +22,26 @@
 
     const map = L.map('map');
     const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
     // Create an empty feature group to store the GeoJSON features
     const geoJsonFeatureGroup = L.featureGroup().addTo(map);
 
     fetch('https://raw.githubusercontent.com/jacebrowning/grwifi/master/map.geojson')
-    .then((response) => response.json())
-    .then((data) => {
+      .then((response) => response.json())
+      .then((data) => {
         // Add the GeoJSON features to the feature group
         L.geoJSON(data, {
-        onEachFeature: function (feature, layer) {
+          onEachFeature: function (feature, layer) {
             let properties = '';
             for (const key in feature.properties) {
-            properties += `<b>${key}:</b> ${feature.properties[key]}<br>`;
+              properties += `<b>${key}:</b> ${feature.properties[key]}<br>`;
             }
             layer.bindPopup(properties);
-        },
+          },
         }).eachLayer((layer) => {
-        geoJsonFeatureGroup.addLayer(layer);
+          geoJsonFeatureGroup.addLayer(layer);
         });
 
         // Calculate the bounds of the features
@@ -49,10 +49,19 @@
 
         // Set the map view to the calculated bounds
         map.fitBounds(bounds);
-    })
-    .catch((error) => {
+      })
+      .catch((error) => {
         console.error('Error fetching GeoJSON:', error);
-    });
+      });
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        // Set the map view to the user's location with a higher zoom level (17)
+        map.setView([position.coords.latitude, position.coords.longitude], 17);
+      });
+    } else {
+      alert("Geolocation is not supported by this browser.");
+    }
 
   </script>
 </body>
