@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-    <title>GR Wifi Access Points</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GR Wifi Access Points</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    #map {
+      width: 100%;
+      height: 75vh;
+    }
+  </style>
 </head>
 <body>
-    <iframe
-        height="800px"
-        width="100%"
-        frameborder="0"
-        src="https://embed.github.com/view/geojson?url=https://raw.githubusercontent.com/jacebrowning/grwifi/master/map.geojson"
-        title="map.geojson">
-    </iframe>
-    <p>
-        To add an access point, follow <a href="https://github.com/jacebrowning/grwifi/blob/master/CONTRIBUTING.md" target="_blank">these instructions</a>.
-    </p>
+  <div id="map"></div>
+  <p>
+    To add an access point, follow <a href="https://github.com/jacebrowning/grwifi/blob/master/CONTRIBUTING.md" target="_blank">these instructions</a>.
+  </p>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+
+    const map = L.map('map');
+    const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    // Create an empty feature group to store the GeoJSON features
+    const geoJsonFeatureGroup = L.featureGroup().addTo(map);
+
+    fetch('https://raw.githubusercontent.com/jacebrowning/grwifi/master/map.geojson')
+    .then((response) => response.json())
+    .then((data) => {
+        // Add the GeoJSON features to the feature group
+        L.geoJSON(data, {
+        onEachFeature: function (feature, layer) {
+            let properties = '';
+            for (const key in feature.properties) {
+            properties += `<b>${key}:</b> ${feature.properties[key]}<br>`;
+            }
+            layer.bindPopup(properties);
+        },
+        }).eachLayer((layer) => {
+        geoJsonFeatureGroup.addLayer(layer);
+        });
+
+        // Calculate the bounds of the features
+        const bounds = geoJsonFeatureGroup.getBounds();
+
+        // Set the map view to the calculated bounds
+        map.fitBounds(bounds);
+    })
+    .catch((error) => {
+        console.error('Error fetching GeoJSON:', error);
+    });
+
+  </script>
 </body>
 </html>
