@@ -1,14 +1,14 @@
 .PHONY: all
-all: install
-
-.PHONY: setup
-setup:
-	pip install pipenv
+all: build
 
 .PHONY: install
 install:
-	pipenv run pip install -r requirements.txt
+	poetry install
+
+.PHONY: build
+build: install
+	poetry run python format.py map.geojson
 
 .PHONY: run
-run: install
-	pipenv run heroku local
+run: build
+	poetry run sappy
