@@ -1,3 +1,5 @@
+PORT ?= 5000
+
 .PHONY: all
 all: build
 
@@ -11,4 +13,4 @@ build: install
 
 .PHONY: run
 run: build
-	poetry run sappy
+	poetry run sappy --port=$(PORT)

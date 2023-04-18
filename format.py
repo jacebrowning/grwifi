@@ -10,6 +10,10 @@ def format_and_sort_geojson(input_file):
     with open(input_file, 'r') as f:
         geojson_data = json.load(f)
 
+    for feature in geojson_data['features']:
+        if 'Notes' in feature['properties'] and not feature['properties']['Notes']:
+            del feature['properties']['Notes']
+
     sorted_features = sorted(geojson_data['features'], key=sort_key)
     geojson_data['features'] = sorted_features
 

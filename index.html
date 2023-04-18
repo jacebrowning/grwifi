@@ -15,7 +15,7 @@
 <body>
   <div id="map"></div>
   <p>
-    To add an access point, follow <a href="https://github.com/jacebrowning/grwifi/blob/master/CONTRIBUTING.md" target="_blank">these instructions</a>.
+    To add an access point, follow <a href="https://github.com/jacebrowning/grwifi/blob/main/CONTRIBUTING.md" target="_blank">these instructions</a>.
   </p>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script>
@@ -28,7 +28,14 @@
     // Create an empty feature group to store the GeoJSON features
     const geoJsonFeatureGroup = L.featureGroup().addTo(map);
 
-    fetch('https://raw.githubusercontent.com/jacebrowning/grwifi/master/map.geojson')
+    const currentLocationMarker = L.circleMarker([0, 0], {
+      radius: 50,
+      color: 'transparent',
+      fillColor: 'red',
+      fillOpacity: 0.2,
+    }).addTo(map);
+
+    fetch('https://raw.githubusercontent.com/jacebrowning/grwifi/main/map.geojson')
       .then((response) => response.json())
       .then((data) => {
         // Add the GeoJSON features to the feature group
@@ -55,10 +62,20 @@
       });
 
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        // Set the map view to the user's location with a higher zoom level (17)
-        map.setView([position.coords.latitude, position.coords.longitude], 17);
-      });
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const lat = position.coords.latitude;
+          const lng = position.coords.longitude;
+          currentLocationMarker.setLatLng([lat, lng]);
+          map.setView([lat, lng], 17);
+        },
+        (error) => {
+          console.error('Error getting current position:', error);
+        },
+        {
+          enableHighAccuracy: true,
+        }
+      );
     } else {
       alert("Geolocation is not supported by this browser.");
     }

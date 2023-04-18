@@ -162,8 +162,7 @@
       "type": "Feature",
       "properties": {
         "SSID": "FoundersFreeWi-Fi",
-        "Password": "imperialstout",
-        "Notes": ""
+        "Password": "imperialstout"
       },
       "geometry": {
         "type": "Point",
@@ -345,8 +344,7 @@
       "type": "Feature",
       "properties": {
         "SSID": "SteelCatBar Public",
-        "Password": "steelcatpassword",
-        "Notes": ""
+        "Password": "steelcatpassword"
       },
       "geometry": {
         "type": "Point",
@@ -445,8 +443,7 @@
       "type": "Feature",
       "properties": {
         "SSID": "peppinos",
-        "Password": "peppinos",
-        "Notes": ""
+        "Password": "peppinos"
       },
       "geometry": {
         "type": "Point",
