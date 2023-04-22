@@ -15,14 +15,14 @@
 <body>
   <div id="map"></div>
   <p>
-    To add an access point, follow <a href="https://github.com/jacebrowning/grwifi/blob/main/CONTRIBUTING.md" target="_blank">these instructions</a>.
+    To add an access point, follow <a href="https://github.com/jacebrowning/grwifi/blob/main/CONTRIBUTING.md">these instructions</a>.
   </p>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script>
 
     const map = L.map('map');
     const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
 
     // Create an empty feature group to store the GeoJSON features
