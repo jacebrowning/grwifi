@@ -9,6 +9,7 @@ install:
 
 .PHONY: build
 build: install
+	- mv ~/Downloads/map.geojson .
 	poetry run python format.py map.geojson
 
 .PHONY: run
