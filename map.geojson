@@ -203,6 +203,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Greyline Guest Network",
+        "Password": "beerisgood"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.68867067717822,
+          42.99527450977598
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "KBCO Guest",
         "Password": "Welcome!"
       },
