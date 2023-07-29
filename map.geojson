@@ -61,6 +61,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Arvon",
+        "Password": "Arvon555"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.66674398256042,
+          42.944795877260304
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "CBC Free WiFi",
         "Password": "nocrapbeer"
       },
