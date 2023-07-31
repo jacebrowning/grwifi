@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "SSID": "7 Monks Guest",
+        "SSID": "7MonksGuests",
         "Password": "drinkbeer"
       },
       "geometry": {
