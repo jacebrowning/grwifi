@@ -19,6 +19,7 @@ def format_and_sort_geojson(input_file):
 
     with open(input_file, 'w') as f:
         json.dump(geojson_data, f, indent=2)
+        f.write('\n')
 
 
 if __name__ == '__main__':

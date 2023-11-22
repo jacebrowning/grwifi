@@ -5,7 +5,7 @@ all: build
 
 .PHONY: install
 install:
-	poetry install
+	poetry install --no-root
 
 .PHONY: build
 build: install
@@ -15,3 +15,7 @@ build: install
 .PHONY: run
 run: build
 	poetry run sappy --port=$(PORT)
+
+.PHONY: clean
+clean:
+	rm -rf .venv

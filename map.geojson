@@ -231,6 +231,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "HarmonyMgmt",
+        "Password": "1551lake"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.63067145926652,
+          42.95514805847003
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "KBCO Guest",
         "Password": "Welcome!"
       },
