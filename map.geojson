@@ -75,6 +75,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Bob's Bar",
+        "Password": "freebeer"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.6510131152357,
+          42.970225559353935
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "CBC Free WiFi",
         "Password": "nocrapbeer"
       },
