@@ -75,7 +75,7 @@
     {
       "type": "Feature",
       "properties": {
-        "SSID": "Bob's Bar",
+        "SSID": "Bobs Bar",
         "Password": "freebeer"
       },
       "geometry": {
