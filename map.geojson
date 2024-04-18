@@ -18,6 +18,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "7MonksGuests",
+        "Password": "drinkbeer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6498834490776,
+          42.969926704315476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Amway-Guest",
         "Password": "shamrock",
         "Notes": "Password changes every month."
@@ -27,6 +41,35 @@
         "coordinates": [
           -85.67248106002808,
           42.9665823372708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Amway-Guest",
+        "Password": "shamrock",
+        "Notes": "Password changes every month."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67248106002808,
+          42.9665823372708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Anchor Wifi",
+        "Password": "anchorbar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68083077669142,
+          42.970727441274356
         ]
       }
     },
@@ -61,6 +104,20 @@
     {
       "type": "Feature",
       "properties": {
+        "Password": "arktosmeadery",
+        "SSID": "Arktos-Guest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6808093190193,
+          42.97047083369038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Arvon",
         "Password": "Arvon555"
       },
@@ -68,6 +125,34 @@
         "coordinates": [
           -85.66674398256042,
           42.944795877260304
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Arvon",
+        "Password": "Arvon555"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.66674398256042,
+          42.944795877260304
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Bob's Bar",
+        "Password": "freebeer"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.6510131152357,
+          42.970225559353935
         ],
         "type": "Point"
       }
@@ -103,6 +188,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "CBC Free WiFi",
+        "Password": "nocrapbeer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66994100809097,
+          42.95578452164877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "CITYBUILT-GUEST",
         "Password": "grbeercity"
       },
@@ -111,6 +210,35 @@
         "coordinates": [
           -85.67231342196465,
           42.97807195015942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "CITYBUILT-GUEST",
+        "Password": "grbeercity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67231342196465,
+          42.97807195015942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "CityFlats",
+        "Password": "cityflats",
+        "Notes": "Access code is 'cityflats#' where # is the number of the month."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6699115037918,
+          42.96466081410007
         ]
       }
     },
@@ -146,6 +274,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Condado Tacos Guest",
+        "Password": "eatmoretacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68101316690445,
+          42.97072253482963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "EarlyBird_5G",
         "Password": "Bird2017"
       },
@@ -154,6 +296,35 @@
         "coordinates": [
           -85.63464850187302,
           42.957508059414714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "EarlyBird_5G",
+        "Password": "Bird2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.63464850187302,
+          42.957508059414714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Factory Friends",
+        "Password": "factoryguest38",
+        "Notes": "Available on the 3rd and 4th floors."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66950112581253,
+          42.96298654733028
         ]
       }
     },
@@ -189,6 +360,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Ferris_Coffee_5g",
+        "Password": "ferris1924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67002415657043,
+          42.966274191017725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "FoundersFreeWi-Fi",
         "Password": "imperialstout"
       },
@@ -197,6 +382,34 @@
         "coordinates": [
           -85.67381680011749,
           42.95833840263338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "FoundersFreeWi-Fi",
+        "Password": "imperialstout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67381680011749,
+          42.95833840263338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "GarageBarGuest",
+        "Password": "garagebarguest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67045867443085,
+          42.97730957500807
         ]
       }
     },
@@ -231,6 +444,34 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Graydons Crossing-guest",
+        "Notes": "Access code is 'graydons'"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66717028617859,
+          42.98541165767672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Greyline Guest Network",
+        "Password": "beerisgood"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.68867067717822,
+          42.99527450977598
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Greyline Guest Network",
         "Password": "beerisgood"
       },
@@ -259,6 +500,34 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "HarmonyMgmt",
+        "Password": "1551lake"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.63067145926652,
+          42.95514805847003
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Hilton Honors",
+        "Password": "GRRMA"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.67205981685746,
+          42.975643462127806
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "KBCO Guest",
         "Password": "Welcome!"
       },
@@ -267,6 +536,34 @@
         "coordinates": [
           -85.68459391593933,
           42.97059006067421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "KBCO Guest",
+        "Password": "Welcome!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68459391593933,
+          42.97059006067421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "LOCAL MOCHA",
+        "Password": "LOCAL106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66991418600082,
+          42.96509458504577
         ]
       }
     },
@@ -301,6 +598,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Lantern Fiber",
+        "Password": "iboughtadrink"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66894590854643,
+          42.96086273424222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Lightfast_Public",
         "Password": "Lightfast"
       },
@@ -309,6 +620,34 @@
         "coordinates": [
           -85.64557582139969,
           42.96268034589986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Lightfast_Public",
+        "Password": "Lightfast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64557582139969,
+          42.96268034589986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Littlebird-5",
+        "Password": "superharry8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67004293203354,
+          42.96480409624398
         ]
       }
     },
@@ -343,6 +682,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "LunaGuest",
+        "Password": "eatmoretacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67005231976508,
+          42.96136817699913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Meanwhile2",
         "Password": "highspeed"
       },
@@ -351,6 +704,34 @@
         "coordinates": [
           -85.64416229724884,
           42.955711888587224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Meanwhile2",
+        "Password": "highspeed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64416229724884,
+          42.955711888587224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "NHBC_Guest",
+        "Password": "newholland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67983031272888,
+          42.9707941688837
         ]
       }
     },
@@ -385,6 +766,34 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "PaLatte Coffee & Art",
+        "Password": "muffintop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66480994224548,
+          42.9630159896952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Speciation Guest",
+        "Password": "beercity"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.64567035000601,
+          42.95509084202419
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Speciation Guest",
         "Password": "beercity"
       },
@@ -407,6 +816,34 @@
         "coordinates": [
           -85.68429082632065,
           42.97061164907457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "SteelCatBar Public",
+        "Password": "steelcatpassword"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68429082632065,
+          42.97061164907457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Uccellos-Public",
+        "Password": "welcome!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67083150148392,
+          42.965668688947424
         ]
       }
     },
@@ -441,6 +878,34 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "VIVANT-GUEST",
+        "Password": "walloonroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64611494541168,
+          42.95983220702039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "Vitale Guest",
+        "Password": "Vitale2090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64899027347565,
+          42.98421279727489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Vitale Guest",
         "Password": "Vitale2090"
       },
@@ -469,6 +934,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "broadleaf-guest",
+        "Password": "leafpile"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.68071167064382,
+          42.97079289725528
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "corridor-guests",
         "Password": "freewififorme"
       },
@@ -477,6 +956,34 @@
         "coordinates": [
           -85.68758726119995,
           42.97480161785969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "corridor-guests",
+        "Password": "freewififorme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.68758726119995,
+          42.97480161785969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "horseshoe",
+        "Password": "horseshoe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6744122505188,
+          42.95677781923906
         ]
       }
     },
@@ -512,6 +1019,21 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "mayanbuzzguest",
+        "Password": "",
+        "Notes": "Access code is 'chocolate'"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67317575216292,
+          42.95928651133035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "peppinos",
         "Password": "peppinos"
       },
@@ -520,6 +1042,34 @@
         "coordinates": [
           -85.66999733448029,
           42.959959797041215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "peppinos",
+        "Password": "peppinos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66999733448029,
+          42.959959797041215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SSID": "thesparrows-public",
+        "Password": "hamburger8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.64301162958145,
+          42.95566281214575
         ]
       }
     },
