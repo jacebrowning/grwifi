@@ -32,6 +32,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "ATW-GUEST",
+        "Password": "goodbeer"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.6725269023754,
+          42.97069613974284
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Amway-Guest",
         "Password": "shamrock",
         "Notes": "Password changes every month."
@@ -57,7 +71,8 @@
           -85.67248106002808,
           42.9665823372708
         ]
-      }
+      },
+      "id": 3
     },
     {
       "type": "Feature",
@@ -369,7 +384,8 @@
           -85.67002415657043,
           42.966274191017725
         ]
-      }
+      },
+      "id": 25
     },
     {
       "type": "Feature",
