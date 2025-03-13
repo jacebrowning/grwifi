@@ -544,6 +544,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Holidaybar-5g",
+        "Password": "Spring2021"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.68802130504241,
+          42.97631612791537
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "KBCO Guest",
         "Password": "Welcome!"
       },
