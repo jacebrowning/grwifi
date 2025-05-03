@@ -207,7 +207,7 @@
       "type": "Feature",
       "properties": {
         "Password": "arktosmeadery",
-        "SSID": "Arktos-Guest"
+        "SSID": "arktosmeadery Guest"
       },
       "geometry": {
         "type": "Point",
@@ -221,7 +221,7 @@
       "type": "Feature",
       "properties": {
         "Password": "arktosmeadery",
-        "SSID": "Arktos-Guest"
+        "SSID": "arktosmeadery Guest"
       },
       "geometry": {
         "type": "Point",
@@ -235,7 +235,7 @@
       "type": "Feature",
       "properties": {
         "Password": "arktosmeadery",
-        "SSID": "Arktos-Guest"
+        "SSID": "arktosmeadery Guest"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +249,7 @@
       "type": "Feature",
       "properties": {
         "Password": "arktosmeadery",
-        "SSID": "Arktos-Guest"
+        "SSID": "arktosmeadery Guest"
       },
       "geometry": {
         "type": "Point",
