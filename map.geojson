@@ -206,62 +206,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Password": "arktosmeadery",
-        "SSID": "arktosmeadery Guest"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.6808093190193,
-          42.97047083369038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Password": "arktosmeadery",
-        "SSID": "arktosmeadery Guest"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.6808093190193,
-          42.97047083369038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Password": "arktosmeadery",
-        "SSID": "arktosmeadery Guest"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.6808093190193,
-          42.97047083369038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Password": "arktosmeadery",
-        "SSID": "arktosmeadery Guest"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.6808093190193,
-          42.97047083369038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "SSID": "Arvon",
         "Password": "Arvon555"
       },
@@ -1918,6 +1862,62 @@
         "coordinates": [
           -85.64899027347565,
           42.98421279727489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Password": "arktosmeadery",
+        "SSID": "arktosmeadery Guest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6808093190193,
+          42.97047083369038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Password": "arktosmeadery",
+        "SSID": "arktosmeadery Guest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6808093190193,
+          42.97047083369038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Password": "arktosmeadery",
+        "SSID": "arktosmeadery Guest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6808093190193,
+          42.97047083369038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Password": "arktosmeadery",
+        "SSID": "arktosmeadery Guest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6808093190193,
+          42.97047083369038
         ]
       }
     },

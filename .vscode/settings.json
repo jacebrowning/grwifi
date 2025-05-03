@@ -2,5 +2,6 @@
     "cSpell.words": [
         "SSID",
         "venv"
-    ]
+    ],
+    "djlint.showInstallError": false
 }
