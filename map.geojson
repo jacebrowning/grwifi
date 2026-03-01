@@ -1406,6 +1406,21 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Mammoth Distilling Guest",
+        "Password": "drinkmammoth"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.65114812148752,
+          42.95546721447383
+        ],
+        "type": "Point"
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "Meanwhile2",
         "Password": "highspeed"
       },
