@@ -444,6 +444,20 @@
     {
       "type": "Feature",
       "properties": {
+        "SSID": "Chicago gyro",
+        "Password": "616.451.0021"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.68170214870766,
+          42.985131275784994
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "SSID": "CityFlats",
         "Password": "cityflats",
         "Notes": "Access code is 'cityflats#' where # is the number of the month."
